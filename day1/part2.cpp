@@ -1,0 +1,49 @@
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <map>
+#include <vector>
+#include <algorithm>
+using namespace std;
+bool isEmpty(string buffer){
+  for(int i = 0; i<buffer.length(); i++){
+    if(buffer[i] != '\t')
+      return false;
+  }
+return true;
+}
+
+bool compare(const pair<int, int>&a, const pair<int, int>&b)
+{
+   return a.second<b.second;
+}
+int main(){
+    ifstream infile("input.txt");
+    map<int, int> elfs;
+
+    elfs.insert(pair<int, int>(1, 0));
+    int b;
+    int curr_elf = 1;
+
+    string buffer;
+    while(getline(infile, buffer, '\n')){
+
+    if(isEmpty(buffer)){
+        curr_elf++;
+        elfs.insert(pair<int, int>(curr_elf, 0));
+    } else {
+        elfs[curr_elf] = elfs[curr_elf] + stoi(buffer);
+    }
+}
+
+vector<int> sorted_elf;
+
+for(auto& elf : elfs){
+    sorted_elf.push_back(elf.second);
+}
+sort(sorted_elf.begin(),sorted_elf.end());
+
+int top3_elfs = sorted_elf[sorted_elf.size()-1] + sorted_elf[sorted_elf.size()-2] + sorted_elf[sorted_elf.size()-3];
+
+cout << top3_elfs;
+}

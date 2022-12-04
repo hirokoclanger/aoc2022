@@ -2,47 +2,46 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <cstdlib>
 #include <vector>
 #include <map>
 #include <type_traits>
 using namespace std;
 int main(){
-    ifstream infile("input.txt");
-    string scoreset;
+    ifstream infile("test.txt");
     string buffer;
+    int scores;
     vector<string> lines;
+// get char in line if is digit then range from starting to end is current range
+// if comma then new pair
+// if next range between prev range, count
     while(getline(infile, buffer, '\n')){
-        string fir;
-        int len = buffer.size();
-        //  get all 3 lines and compare them, the get the single idenity item
+        vector<int> fir;
+        int group = 1;
+        vector<int> sec;
         for(string::iterator it = buffer.begin(); it != buffer.end(); ++it) {
-              fir+= *it;
-        }
-        lines.push_back(fir);
+            if(*it == ','){
+                group = 2;
+            }
 
-    }
-
-    for(int l = 0;  l < lines.size(); l+=3){
-        for(char b : lines[l]){
-            auto line2 = std::find(lines[l+1].begin(), lines[l+1].end(), b);
-            auto line3 = std::find(lines[l+2].begin(), lines[l+2].end(), b);
-
-            if(line2 != end(lines[l+1]) && line3 != end(lines[l+2])){
-                scoreset+=b;
-                break;
+            if(isdigit(*it) && group == 1){
+                int number1 = std::stoi(*it);
+                fir.push_back(number1);
+            }
+            if(isdigit(*it) && group == 2){
+                int number = std::stoi(*it);
+                sec.push_back(number);
             }
         }
-    }
+        cout << fir[0];
 
-    int score = 0;
-    for(char k : scoreset){
-        int ia = (int) k;
-        if(islower(ia)){
-            score+=(ia-96);
+        if(fir[0] >= sec[0] && fir[fir.size()] <= sec[sec.size()]){
+            scores+=1;
         }
-        else {
-            score+=(ia-38);
+        else if(sec[0] >= fir[0] && sec[sec.size()] <= fir[fir.size()]){
+            scores+=1;
         }
+
     }
-    cout << score;
+   cout << scores;
 }

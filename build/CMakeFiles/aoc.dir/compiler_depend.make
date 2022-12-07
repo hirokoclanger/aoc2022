@@ -431,22 +431,673 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/unordered_map
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/unordered_map \
+  ../range-v3/include/range/v3/all.hpp \
+  ../range-v3/include/range/v3/action.hpp \
+  ../range-v3/include/range/v3/action/action.hpp \
+  ../range-v3/include/meta/meta.hpp \
+  ../range-v3/include/meta/meta_fwd.hpp \
+  ../range-v3/include/range/v3/range_fwd.hpp \
+  ../range-v3/include/concepts/concepts.hpp \
+  ../range-v3/include/concepts/swap.hpp \
+  ../range-v3/include/concepts/type_traits.hpp \
+  ../range-v3/include/concepts/compare.hpp \
+  ../range-v3/include/range/v3/compare.hpp \
+  ../range-v3/include/range/v3/detail/config.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/experimental/coroutine \
+  ../range-v3/include/range/v3/utility/static_const.hpp \
+  ../range-v3/include/range/v3/version.hpp \
+  ../range-v3/include/range/v3/detail/prologue.hpp \
+  ../range-v3/include/range/v3/detail/epilogue.hpp \
+  ../range-v3/include/range/v3/action/concepts.hpp \
+  ../range-v3/include/range/v3/range/concepts.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/span \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/array \
+  ../range-v3/include/range/v3/functional/comparisons.hpp \
+  ../range-v3/include/range/v3/iterator/concepts.hpp \
+  ../range-v3/include/range/v3/functional/concepts.hpp \
+  ../range-v3/include/range/v3/functional/invoke.hpp \
+  ../range-v3/include/range/v3/functional/identity.hpp \
+  ../range-v3/include/range/v3/iterator/access.hpp \
+  ../range-v3/include/std/detail/associated_types.hpp \
+  ../range-v3/include/range/v3/utility/move.hpp \
+  ../range-v3/include/range/v3/utility/swap.hpp \
+  ../range-v3/include/range/v3/iterator/traits.hpp \
+  ../range-v3/include/range/v3/utility/common_type.hpp \
+  ../range-v3/include/range/v3/range/access.hpp \
+  ../range-v3/include/range/v3/iterator/reverse_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/basic_iterator.hpp \
+  ../range-v3/include/range/v3/detail/range_access.hpp \
+  ../range-v3/include/range/v3/utility/addressof.hpp \
+  ../range-v3/include/range/v3/utility/box.hpp \
+  ../range-v3/include/range/v3/utility/get.hpp \
+  ../range-v3/include/range/v3/detail/adl_get.hpp \
+  ../range-v3/include/range/v3/utility/semiregular_box.hpp \
+  ../range-v3/include/range/v3/functional/reference_wrapper.hpp \
+  ../range-v3/include/range/v3/utility/in_place.hpp \
+  ../range-v3/include/range/v3/range/primitives.hpp \
+  ../range-v3/include/range/v3/range/traits.hpp \
+  ../range-v3/include/range/v3/functional/compose.hpp \
+  ../range-v3/include/range/v3/functional/pipeable.hpp \
+  ../range-v3/include/range/v3/action/adjacent_remove_if.hpp \
+  ../range-v3/include/range/v3/action/erase.hpp \
+  ../range-v3/include/range/v3/action/insert.hpp \
+  ../range-v3/include/range/v3/algorithm/max.hpp \
+  ../range-v3/include/range/v3/iterator/common_iterator.hpp \
+  ../range-v3/include/range/v3/detail/variant.hpp \
+  ../range-v3/include/range/v3/utility/common_tuple.hpp \
+  ../range-v3/include/range/v3/functional/bind.hpp \
+  ../range-v3/include/range/v3/utility/tuple_algorithm.hpp \
+  ../range-v3/include/range/v3/algorithm/adjacent_remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm/adjacent_find.hpp \
+  ../range-v3/include/range/v3/range/dangling.hpp \
+  ../range-v3/include/range/v3/algorithm/move.hpp \
+  ../range-v3/include/range/v3/algorithm/result_types.hpp \
+  ../range-v3/include/range/v3/functional/bind_back.hpp \
+  ../range-v3/include/range/v3/action/drop.hpp \
+  ../range-v3/include/range/v3/iterator/operations.hpp \
+  ../range-v3/include/range/v3/action/drop_while.hpp \
+  ../range-v3/include/range/v3/algorithm/find_if_not.hpp \
+  ../range-v3/include/range/v3/action/join.hpp \
+  ../range-v3/include/range/v3/action/push_back.hpp \
+  ../range-v3/include/range/v3/detail/with_braced_init_args.hpp \
+  ../range-v3/include/range/v3/action/push_front.hpp \
+  ../range-v3/include/range/v3/action/remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm/remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm/find_if.hpp \
+  ../range-v3/include/range/v3/action/reverse.hpp \
+  ../range-v3/include/range/v3/algorithm/reverse.hpp \
+  ../range-v3/include/range/v3/action/shuffle.hpp \
+  ../range-v3/include/range/v3/algorithm/shuffle.hpp \
+  ../range-v3/include/range/v3/utility/random.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/random \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/numeric \
+  ../range-v3/include/range/v3/algorithm/copy.hpp \
+  ../range-v3/include/range/v3/utility/copy.hpp \
+  ../range-v3/include/range/v3/algorithm/generate.hpp \
+  ../range-v3/include/range/v3/action/slice.hpp \
+  ../range-v3/include/range/v3/view/interface.hpp \
+  ../range-v3/include/range/v3/action/sort.hpp \
+  ../range-v3/include/range/v3/algorithm/sort.hpp \
+  ../range-v3/include/range/v3/algorithm/heap_algorithm.hpp \
+  ../range-v3/include/range/v3/algorithm/move_backward.hpp \
+  ../range-v3/include/range/v3/algorithm/partial_sort.hpp \
+  ../range-v3/include/range/v3/action/split.hpp \
+  ../range-v3/include/range/v3/range/conversion.hpp \
+  ../range-v3/include/range/v3/view/split.hpp \
+  ../range-v3/include/range/v3/algorithm/mismatch.hpp \
+  ../range-v3/include/range/v3/iterator/default_sentinel.hpp \
+  ../range-v3/include/range/v3/view/all.hpp \
+  ../range-v3/include/range/v3/view/ref.hpp \
+  ../range-v3/include/range/v3/detail/satisfy_boost_range.hpp \
+  ../range-v3/include/range/v3/view/subrange.hpp \
+  ../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp \
+  ../range-v3/include/range/v3/view/view.hpp \
+  ../range-v3/include/range/v3/view/single.hpp \
+  ../range-v3/include/range/v3/utility/optional.hpp \
+  ../range-v3/include/range/v3/view/facade.hpp \
+  ../range-v3/include/range/v3/action/split_when.hpp \
+  ../range-v3/include/range/v3/view/split_when.hpp \
+  ../range-v3/include/range/v3/view/indirect.hpp \
+  ../range-v3/include/range/v3/view/adaptor.hpp \
+  ../range-v3/include/range/v3/utility/compressed_pair.hpp \
+  ../range-v3/include/range/v3/view/iota.hpp \
+  ../range-v3/include/range/v3/iterator/diffmax_t.hpp \
+  ../range-v3/include/range/v3/view/delimit.hpp \
+  ../range-v3/include/range/v3/view/take_while.hpp \
+  ../range-v3/include/range/v3/functional/indirect.hpp \
+  ../range-v3/include/range/v3/action/stable_sort.hpp \
+  ../range-v3/include/range/v3/algorithm/stable_sort.hpp \
+  ../range-v3/include/range/v3/algorithm/inplace_merge.hpp \
+  ../range-v3/include/range/v3/algorithm/lower_bound.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/lower_bound_n.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/partition_point_n.hpp \
+  ../range-v3/include/range/v3/algorithm/partition_point.hpp \
+  ../range-v3/include/range/v3/algorithm/merge.hpp \
+  ../range-v3/include/range/v3/algorithm/min.hpp \
+  ../range-v3/include/range/v3/algorithm/rotate.hpp \
+  ../range-v3/include/range/v3/algorithm/swap_ranges.hpp \
+  ../range-v3/include/range/v3/algorithm/upper_bound.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/upper_bound_n.hpp \
+  ../range-v3/include/range/v3/functional/not_fn.hpp \
+  ../range-v3/include/range/v3/iterator/move_iterators.hpp \
+  ../range-v3/include/range/v3/utility/memory.hpp \
+  ../range-v3/include/range/v3/utility/polymorphic_cast.hpp \
+  ../range-v3/include/range/v3/action/stride.hpp \
+  ../range-v3/include/range/v3/action/take.hpp \
+  ../range-v3/include/range/v3/action/take_while.hpp \
+  ../range-v3/include/range/v3/action/transform.hpp \
+  ../range-v3/include/range/v3/algorithm/transform.hpp \
+  ../range-v3/include/range/v3/action/unique.hpp \
+  ../range-v3/include/range/v3/algorithm/unique.hpp \
+  ../range-v3/include/range/v3/action/unstable_remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm/unstable_remove_if.hpp \
+  ../range-v3/include/range/v3/algorithm.hpp \
+  ../range-v3/include/range/v3/algorithm/all_of.hpp \
+  ../range-v3/include/range/v3/algorithm/any_of.hpp \
+  ../range-v3/include/range/v3/algorithm/binary_search.hpp \
+  ../range-v3/include/range/v3/algorithm/contains.hpp \
+  ../range-v3/include/range/v3/algorithm/find.hpp \
+  ../range-v3/include/range/v3/algorithm/copy_backward.hpp \
+  ../range-v3/include/range/v3/algorithm/copy_if.hpp \
+  ../range-v3/include/range/v3/algorithm/copy_n.hpp \
+  ../range-v3/include/range/v3/algorithm/count.hpp \
+  ../range-v3/include/range/v3/algorithm/count_if.hpp \
+  ../range-v3/include/range/v3/algorithm/ends_with.hpp \
+  ../range-v3/include/range/v3/algorithm/equal.hpp \
+  ../range-v3/include/range/v3/algorithm/equal_range.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/equal_range_n.hpp \
+  ../range-v3/include/range/v3/algorithm/fill.hpp \
+  ../range-v3/include/range/v3/algorithm/fill_n.hpp \
+  ../range-v3/include/range/v3/algorithm/find_end.hpp \
+  ../range-v3/include/range/v3/algorithm/find_first_of.hpp \
+  ../range-v3/include/range/v3/algorithm/fold.hpp \
+  ../range-v3/include/range/v3/algorithm/fold_left.hpp \
+  ../range-v3/include/range/v3/algorithm/fold_right.hpp \
+  ../range-v3/include/range/v3/algorithm/for_each.hpp \
+  ../range-v3/include/range/v3/algorithm/for_each_n.hpp \
+  ../range-v3/include/range/v3/algorithm/generate_n.hpp \
+  ../range-v3/include/range/v3/algorithm/is_partitioned.hpp \
+  ../range-v3/include/range/v3/algorithm/is_sorted.hpp \
+  ../range-v3/include/range/v3/algorithm/is_sorted_until.hpp \
+  ../range-v3/include/range/v3/algorithm/lexicographical_compare.hpp \
+  ../range-v3/include/range/v3/algorithm/max_element.hpp \
+  ../range-v3/include/range/v3/algorithm/min_element.hpp \
+  ../range-v3/include/range/v3/algorithm/minmax.hpp \
+  ../range-v3/include/range/v3/algorithm/minmax_element.hpp \
+  ../range-v3/include/range/v3/algorithm/none_of.hpp \
+  ../range-v3/include/range/v3/algorithm/nth_element.hpp \
+  ../range-v3/include/range/v3/algorithm/partial_sort_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/partition.hpp \
+  ../range-v3/include/range/v3/algorithm/partition_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/permutation.hpp \
+  ../range-v3/include/range/v3/algorithm/remove.hpp \
+  ../range-v3/include/range/v3/algorithm/remove_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/remove_copy_if.hpp \
+  ../range-v3/include/range/v3/algorithm/replace.hpp \
+  ../range-v3/include/range/v3/algorithm/replace_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/replace_copy_if.hpp \
+  ../range-v3/include/range/v3/algorithm/replace_if.hpp \
+  ../range-v3/include/range/v3/algorithm/reverse_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/rotate_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/sample.hpp \
+  ../range-v3/include/range/v3/algorithm/search.hpp \
+  ../range-v3/include/range/v3/algorithm/search_n.hpp \
+  ../range-v3/include/range/v3/algorithm/set_algorithm.hpp \
+  ../range-v3/include/range/v3/algorithm/stable_partition.hpp \
+  ../range-v3/include/range/v3/algorithm/starts_with.hpp \
+  ../range-v3/include/range/v3/algorithm/unique_copy.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/merge_n.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/merge_n_with_buffer.hpp \
+  ../range-v3/include/range/v3/algorithm/aux_/sort_n_with_buffer.hpp \
+  ../range-v3/include/range/v3/core.hpp \
+  ../range-v3/include/range/v3/range/operations.hpp \
+  ../range-v3/include/range/v3/range_for.hpp \
+  ../range-v3/include/range/v3/view/getlines.hpp \
+  ../range-v3/include/range/v3/view/istream.hpp \
+  ../range-v3/include/range/v3/functional.hpp \
+  ../range-v3/include/range/v3/functional/arithmetic.hpp \
+  ../range-v3/include/range/v3/functional/on.hpp \
+  ../range-v3/include/range/v3/functional/overload.hpp \
+  ../range-v3/include/range/v3/iterator.hpp \
+  ../range-v3/include/range/v3/iterator/counted_iterator.hpp \
+  ../range-v3/include/range/v3/iterator/insert_iterators.hpp \
+  ../range-v3/include/range/v3/iterator/stream_iterators.hpp \
+  ../range-v3/include/range/v3/numeric.hpp \
+  ../range-v3/include/range/v3/numeric/accumulate.hpp \
+  ../range-v3/include/range/v3/numeric/adjacent_difference.hpp \
+  ../range-v3/include/range/v3/numeric/inner_product.hpp \
+  ../range-v3/include/range/v3/numeric/iota.hpp \
+  ../range-v3/include/range/v3/numeric/partial_sum.hpp \
+  ../range-v3/include/range/v3/range.hpp \
+  ../range-v3/include/range/v3/utility.hpp \
+  ../range-v3/include/range/v3/view.hpp \
+  ../range-v3/include/range/v3/view/addressof.hpp \
+  ../range-v3/include/range/v3/view/transform.hpp \
+  ../range-v3/include/range/v3/view/adjacent_filter.hpp \
+  ../range-v3/include/range/v3/view/adjacent_remove_if.hpp \
+  ../range-v3/include/range/v3/view/any_view.hpp \
+  ../range-v3/include/range/v3/view/c_str.hpp \
+  ../range-v3/include/range/v3/view/cache1.hpp \
+  ../range-v3/include/range/v3/view/cartesian_product.hpp \
+  ../range-v3/include/range/v3/view/empty.hpp \
+  ../range-v3/include/range/v3/view/chunk.hpp \
+  ../range-v3/include/range/v3/view/take.hpp \
+  ../range-v3/include/range/v3/view/chunk_by.hpp \
+  ../range-v3/include/range/v3/view/common.hpp \
+  ../range-v3/include/range/v3/view/concat.hpp \
+  ../range-v3/include/range/v3/utility/variant.hpp \
+  ../range-v3/include/range/v3/view/const.hpp \
+  ../range-v3/include/range/v3/view/counted.hpp \
+  ../range-v3/include/range/v3/view/cycle.hpp \
+  ../range-v3/include/range/v3/view/drop.hpp \
+  ../range-v3/include/range/v3/view/drop_exactly.hpp \
+  ../range-v3/include/range/v3/view/drop_last.hpp \
+  ../range-v3/include/range/v3/view/drop_while.hpp \
+  ../range-v3/include/range/v3/view/enumerate.hpp \
+  ../range-v3/include/range/v3/view/zip.hpp \
+  ../range-v3/include/range/v3/view/zip_with.hpp \
+  ../range-v3/include/range/v3/view/exclusive_scan.hpp \
+  ../range-v3/include/range/v3/view/filter.hpp \
+  ../range-v3/include/range/v3/view/remove_if.hpp \
+  ../range-v3/include/range/v3/view/for_each.hpp \
+  ../range-v3/include/range/v3/view/generate_n.hpp \
+  ../range-v3/include/range/v3/view/generate.hpp \
+  ../range-v3/include/range/v3/view/join.hpp \
+  ../range-v3/include/range/v3/view/repeat_n.hpp \
+  ../range-v3/include/range/v3/view/group_by.hpp \
+  ../range-v3/include/range/v3/view/indices.hpp \
+  ../range-v3/include/range/v3/view/intersperse.hpp \
+  ../range-v3/include/range/v3/view/linear_distribute.hpp \
+  ../range-v3/include/range/v3/view/map.hpp \
+  ../range-v3/include/range/v3/view/move.hpp \
+  ../range-v3/include/range/v3/view/partial_sum.hpp \
+  ../range-v3/include/range/v3/view/remove.hpp \
+  ../range-v3/include/range/v3/view/repeat.hpp \
+  ../range-v3/include/range/v3/view/replace.hpp \
+  ../range-v3/include/range/v3/view/replace_if.hpp \
+  ../range-v3/include/range/v3/view/reverse.hpp \
+  ../range-v3/include/range/v3/view/sample.hpp \
+  ../range-v3/include/range/v3/view/set_algorithm.hpp \
+  ../range-v3/include/range/v3/view/slice.hpp \
+  ../range-v3/include/range/v3/view/sliding.hpp \
+  ../range-v3/include/range/v3/view/span.hpp \
+  ../range-v3/include/range/v3/view/stride.hpp \
+  ../range-v3/include/range/v3/view/tail.hpp \
+  ../range-v3/include/range/v3/view/take_exactly.hpp \
+  ../range-v3/include/range/v3/view/take_last.hpp \
+  ../range-v3/include/range/v3/view/tokenize.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/regex \
+  ../range-v3/include/range/v3/view/trim.hpp \
+  ../range-v3/include/range/v3/view/unbounded.hpp \
+  ../range-v3/include/range/v3/view/unique.hpp
 
+
+../range-v3/include/range/v3/view/unbounded.hpp:
+
+../range-v3/include/range/v3/view/tokenize.hpp:
+
+../range-v3/include/range/v3/view/take_last.hpp:
+
+../range-v3/include/range/v3/view/take_exactly.hpp:
+
+../range-v3/include/range/v3/view/tail.hpp:
+
+../range-v3/include/range/v3/view/slice.hpp:
+
+../range-v3/include/range/v3/view/reverse.hpp:
+
+../range-v3/include/range/v3/view/replace.hpp:
+
+../range-v3/include/range/v3/view/map.hpp:
+
+../range-v3/include/range/v3/view/linear_distribute.hpp:
+
+../range-v3/include/range/v3/view/indices.hpp:
+
+../range-v3/include/range/v3/view/join.hpp:
+
+../range-v3/include/range/v3/view/generate.hpp:
+
+../range-v3/include/range/v3/view/exclusive_scan.hpp:
+
+../range-v3/include/range/v3/view/zip_with.hpp:
+
+../range-v3/include/range/v3/view/zip.hpp:
+
+../range-v3/include/range/v3/view/enumerate.hpp:
+
+../range-v3/include/range/v3/view/drop_exactly.hpp:
+
+../range-v3/include/range/v3/view/drop.hpp:
+
+../range-v3/include/range/v3/view/cycle.hpp:
+
+../range-v3/include/range/v3/view/const.hpp:
+
+../range-v3/include/range/v3/utility/variant.hpp:
+
+../range-v3/include/range/v3/view/chunk.hpp:
+
+../range-v3/include/range/v3/view/empty.hpp:
+
+../range-v3/include/range/v3/view/c_str.hpp:
+
+../range-v3/include/range/v3/view/partial_sum.hpp:
+
+../range-v3/include/range/v3/view/adjacent_remove_if.hpp:
+
+../range-v3/include/range/v3/view/adjacent_filter.hpp:
+
+../range-v3/include/range/v3/view.hpp:
+
+../range-v3/include/range/v3/utility.hpp:
+
+../range-v3/include/range/v3/numeric/partial_sum.hpp:
+
+../range-v3/include/range/v3/numeric/iota.hpp:
+
+../range-v3/include/range/v3/numeric/accumulate.hpp:
+
+../range-v3/include/range/v3/numeric.hpp:
+
+../range-v3/include/range/v3/iterator/stream_iterators.hpp:
+
+../range-v3/include/range/v3/iterator/counted_iterator.hpp:
+
+../range-v3/include/range/v3/iterator.hpp:
+
+../range-v3/include/range/v3/functional/overload.hpp:
+
+../range-v3/include/range/v3/functional/on.hpp:
+
+../range-v3/include/range/v3/view/istream.hpp:
+
+../range-v3/include/range/v3/view/trim.hpp:
+
+../range-v3/include/range/v3/range_for.hpp:
+
+../range-v3/include/range/v3/core.hpp:
+
+../range-v3/include/range/v3/algorithm/aux_/sort_n_with_buffer.hpp:
+
+../range-v3/include/range/v3/algorithm/aux_/merge_n.hpp:
+
+../range-v3/include/range/v3/algorithm/unique_copy.hpp:
+
+../range-v3/include/range/v3/algorithm/starts_with.hpp:
+
+../range-v3/include/range/v3/algorithm/set_algorithm.hpp:
+
+../range-v3/include/range/v3/algorithm/search.hpp:
+
+../range-v3/include/range/v3/algorithm/replace_if.hpp:
+
+../range-v3/include/range/v3/algorithm/replace_copy.hpp:
+
+../range-v3/include/range/v3/algorithm/remove.hpp:
+
+../range-v3/include/range/v3/algorithm/permutation.hpp:
+
+../range-v3/include/range/v3/algorithm/partition_copy.hpp:
+
+../range-v3/include/range/v3/algorithm/nth_element.hpp:
+
+../range-v3/include/range/v3/algorithm/minmax.hpp:
+
+../range-v3/include/range/v3/view/chunk_by.hpp:
+
+../range-v3/include/range/v3/algorithm/min_element.hpp:
+
+../range-v3/include/range/v3/algorithm/lexicographical_compare.hpp:
+
+../range-v3/include/range/v3/algorithm/is_sorted_until.hpp:
+
+../range-v3/include/range/v3/algorithm/is_sorted.hpp:
+
+../range-v3/include/range/v3/algorithm/is_partitioned.hpp:
+
+../range-v3/include/range/v3/algorithm/generate_n.hpp:
+
+../range-v3/include/range/v3/algorithm/for_each_n.hpp:
+
+../range-v3/include/range/v3/algorithm/rotate_copy.hpp:
+
+../range-v3/include/range/v3/algorithm/fold_right.hpp:
+
+../range-v3/include/range/v3/algorithm/fold.hpp:
+
+../range-v3/include/range/v3/view/filter.hpp:
+
+../range-v3/include/range/v3/algorithm/find_end.hpp:
+
+../range-v3/include/range/v3/algorithm/fill_n.hpp:
+
+../range-v3/include/range/v3/algorithm/search_n.hpp:
+
+../range-v3/include/range/v3/algorithm/copy_n.hpp:
+
+../range-v3/include/range/v3/algorithm/find.hpp:
+
+../range-v3/include/range/v3/algorithm/binary_search.hpp:
+
+../range-v3/include/range/v3/algorithm/count.hpp:
+
+../range-v3/include/range/v3/algorithm/any_of.hpp:
+
+../range-v3/include/range/v3/algorithm/all_of.hpp:
+
+../range-v3/include/range/v3/algorithm.hpp:
+
+../range-v3/include/range/v3/algorithm/unstable_remove_if.hpp:
+
+../range-v3/include/range/v3/algorithm/unique.hpp:
+
+../range-v3/include/range/v3/utility/polymorphic_cast.hpp:
+
+../range-v3/include/range/v3/functional/not_fn.hpp:
+
+../range-v3/include/range/v3/algorithm/upper_bound.hpp:
+
+../range-v3/include/range/v3/algorithm/swap_ranges.hpp:
+
+../range-v3/include/range/v3/algorithm/aux_/equal_range_n.hpp:
+
+../range-v3/include/range/v3/algorithm/min.hpp:
+
+../range-v3/include/range/v3/algorithm/aux_/lower_bound_n.hpp:
+
+../range-v3/include/range/v3/algorithm/lower_bound.hpp:
+
+../range-v3/include/range/v3/action/stable_sort.hpp:
+
+../range-v3/include/range/v3/view/repeat_n.hpp:
+
+../range-v3/include/range/v3/view/counted.hpp:
+
+../range-v3/include/range/v3/algorithm/aux_/upper_bound_n.hpp:
+
+../range-v3/include/range/v3/iterator/diffmax_t.hpp:
+
+../range-v3/include/range/v3/view/iota.hpp:
+
+../range-v3/include/range/v3/view/indirect.hpp:
+
+../range-v3/include/range/v3/action/split_when.hpp:
+
+../range-v3/include/range/v3/utility/optional.hpp:
+
+../range-v3/include/range/v3/action/stride.hpp:
+
+../range-v3/include/range/v3/view/single.hpp:
+
+../range-v3/include/range/v3/view/set_algorithm.hpp:
+
+../range-v3/include/range/v3/view/view.hpp:
+
+../range-v3/include/range/v3/algorithm/inplace_merge.hpp:
+
+../range-v3/include/range/v3/iterator/unreachable_sentinel.hpp:
+
+../range-v3/include/range/v3/detail/satisfy_boost_range.hpp:
+
+../range-v3/include/range/v3/iterator/default_sentinel.hpp:
+
+../range-v3/include/range/v3/view/split.hpp:
+
+../range-v3/include/range/v3/view/adaptor.hpp:
+
+../range-v3/include/range/v3/algorithm/heap_algorithm.hpp:
+
+../range-v3/include/range/v3/algorithm/transform.hpp:
+
+../range-v3/include/range/v3/action/sort.hpp:
+
+../range-v3/include/range/v3/view/interface.hpp:
+
+../range-v3/include/range/v3/utility/copy.hpp:
+
+../range-v3/include/range/v3/algorithm/copy.hpp:
+
+../range-v3/include/range/v3/view/group_by.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/random:
+
+../range-v3/include/range/v3/view/remove.hpp:
+
+../range-v3/include/range/v3/action/shuffle.hpp:
+
+../range-v3/include/range/v3/algorithm/minmax_element.hpp:
+
+../range-v3/include/range/v3/algorithm/remove_if.hpp:
+
+../range-v3/include/range/v3/action/remove_if.hpp:
+
+../range-v3/include/range/v3/detail/with_braced_init_args.hpp:
+
+../range-v3/include/range/v3/action/push_back.hpp:
+
+../range-v3/include/range/v3/action/drop_while.hpp:
+
+../range-v3/include/range/v3/iterator/operations.hpp:
+
+../range-v3/include/range/v3/algorithm/partition_point.hpp:
+
+../range-v3/include/range/v3/action/drop.hpp:
+
+../range-v3/include/range/v3/algorithm/result_types.hpp:
+
+../range-v3/include/range/v3/algorithm/adjacent_find.hpp:
+
+../range-v3/include/range/v3/algorithm/aux_/merge_n_with_buffer.hpp:
+
+../range-v3/include/range/v3/algorithm/contains.hpp:
+
+../range-v3/include/range/v3/functional/indirect.hpp:
+
+../range-v3/include/range/v3/algorithm/adjacent_remove_if.hpp:
+
+../range-v3/include/range/v3/algorithm/none_of.hpp:
+
+../range-v3/include/range/v3/utility/tuple_algorithm.hpp:
+
+../range-v3/include/range/v3/functional/bind.hpp:
+
+../range-v3/include/range/v3/utility/common_tuple.hpp:
+
+../range-v3/include/range/v3/view/intersperse.hpp:
+
+../range-v3/include/range/v3/algorithm/ends_with.hpp:
+
+../range-v3/include/range/v3/detail/variant.hpp:
+
+../range-v3/include/range/v3/iterator/common_iterator.hpp:
+
+../range-v3/include/range/v3/action/erase.hpp:
+
+../range-v3/include/range/v3/functional/pipeable.hpp:
+
+../range-v3/include/range/v3/view/repeat.hpp:
+
+../range-v3/include/range/v3/view/take.hpp:
+
+../range-v3/include/range/v3/range/primitives.hpp:
+
+../range-v3/include/range/v3/view/sample.hpp:
+
+../range-v3/include/range/v3/functional/reference_wrapper.hpp:
+
+../range-v3/include/range/v3/detail/adl_get.hpp:
+
+../range-v3/include/range/v3/functional/bind_back.hpp:
+
+../range-v3/include/range/v3/utility/box.hpp:
+
+../range-v3/include/range/v3/iterator/basic_iterator.hpp:
+
+../range-v3/include/range/v3/iterator/reverse_iterator.hpp:
+
+../range-v3/include/range/v3/iterator/traits.hpp:
+
+../range-v3/include/range/v3/utility/swap.hpp:
+
+../range-v3/include/range/v3/utility/move.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/array:
+
+../range-v3/include/range/v3/range/concepts.hpp:
+
+../range-v3/include/range/v3/action/concepts.hpp:
+
+../range-v3/include/range/v3/detail/epilogue.hpp:
+
+../range-v3/include/range/v3/detail/prologue.hpp:
+
+../range-v3/include/range/v3/version.hpp:
+
+../range-v3/include/range/v3/utility/static_const.hpp:
+
+../range-v3/include/range/v3/iterator/move_iterators.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/experimental/coroutine:
+
+../range-v3/include/range/v3/compare.hpp:
+
+../range-v3/include/concepts/compare.hpp:
+
+../range-v3/include/concepts/type_traits.hpp:
+
+../range-v3/include/range/v3/range_fwd.hpp:
+
+../range-v3/include/range/v3/iterator/insert_iterators.hpp:
+
+../range-v3/include/range/v3/algorithm/equal_range.hpp:
+
+../range-v3/include/meta/meta_fwd.hpp:
+
+../range-v3/include/range/v3/iterator/access.hpp:
+
+../range-v3/include/range/v3/detail/config.hpp:
+
+../range-v3/include/meta/meta.hpp:
+
+../range-v3/include/range/v3/algorithm/partition.hpp:
+
+../range-v3/include/range/v3/action/action.hpp:
+
+../range-v3/include/range/v3/algorithm/fill.hpp:
+
+../range-v3/include/range/v3/algorithm/count_if.hpp:
+
+../range-v3/include/range/v3/action.hpp:
+
+../range-v3/include/range/v3/action/adjacent_remove_if.hpp:
+
+../range-v3/include/range/v3/all.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/unordered_map:
+
+../range-v3/include/range/v3/utility/semiregular_box.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h:
 
+../range-v3/include/range/v3/view/subrange.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cmath:
+
+../range-v3/include/range/v3/functional/identity.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__hash_table:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
+../range-v3/include/range/v3/algorithm/reverse.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/unordered_set:
+
+../range-v3/include/range/v3/range/access.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/vector:
 
@@ -457,6 +1108,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__split_buffer:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/deque:
+
+../range-v3/include/range/v3/algorithm/replace.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stack:
 
@@ -472,6 +1125,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_nlink_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/regex:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_in_port_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_in_addr_t.h:
@@ -479,6 +1134,10 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_ctermid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_gid_t.h:
+
+../range-v3/include/range/v3/algorithm/sort.hpp:
+
+../range-v3/include/range/v3/algorithm/generate.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
@@ -490,15 +1149,23 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_u_short.h:
 
+../range-v3/include/range/v3/functional/comparisons.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/chrono:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_u_char.h:
 
+../range-v3/include/range/v3/view/sliding.hpp:
+
+../range-v3/include/range/v3/utility/compressed_pair.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/streambuf:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/locale:
+
+../range-v3/include/range/v3/algorithm/partial_sort_copy.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__ranges/access.h:
 
@@ -511,6 +1178,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/xlocale/__wctype.h:
+
+../range-v3/include/range/v3/algorithm/aux_/partition_point_n.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__undef_macros:
 
@@ -540,6 +1209,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cwctype:
 
+../range-v3/include/range/v3/utility/get.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cwchar:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_fd_set.h:
@@ -549,6 +1220,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/fstream:
+
+../range-v3/include/range/v3/action/reverse.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cstdint:
 
@@ -580,7 +1253,11 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
+../range-v3/include/range/v3/algorithm/merge.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
+
+../range-v3/include/range/v3/range.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_size_t.h:
 
@@ -606,6 +1283,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
+../range-v3/include/range/v3/algorithm/replace_copy_if.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
@@ -624,6 +1303,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
+../range-v3/include/range/v3/action/take_while.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h:
@@ -636,9 +1317,13 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
+../range-v3/include/range/v3/view/transform.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
+
+../range-v3/include/range/v3/algorithm/reverse_copy.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
@@ -670,21 +1355,33 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
+../range-v3/include/range/v3/view/delimit.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
+../range-v3/include/range/v3/view/generate_n.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/copy.h:
+
+../range-v3/include/range/v3/action/insert.hpp:
+
+../range-v3/include/concepts/concepts.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
+
+../range-v3/include/range/v3/numeric/inner_product.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/unary_negate.h:
+
+../range-v3/include/range/v3/numeric/adjacent_difference.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_symbol_aliasing.h:
 
@@ -695,6 +1392,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/type_traits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
+
+../range-v3/include/range/v3/utility/common_type.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/syslimits.h:
 
@@ -708,13 +1407,19 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 
+../range-v3/include/range/v3/action/split.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
+../range-v3/include/range/v3/functional/compose.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
+
+../range-v3/include/range/v3/action/take.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/search.h:
 
@@ -756,19 +1461,31 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__utility/__decay_copy.h:
 
+../range-v3/include/range/v3/algorithm/copy_if.hpp:
+
+../range-v3/include/range/v3/action/join.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
+../range-v3/include/range/v3/detail/range_access.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
+../range-v3/include/range/v3/algorithm/stable_partition.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
+
+../range-v3/include/range/v3/view/drop_while.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__errc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/iter_move.h:
+
+../range-v3/include/range/v3/range/operations.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
@@ -786,9 +1503,13 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
+../range-v3/include/range/v3/view/for_each.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/advance.h:
+
+../range-v3/include/range/v3/range/dangling.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
@@ -810,9 +1531,13 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
+../range-v3/include/range/v3/view/concat.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/appleapiopts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+../range-v3/include/range/v3/algorithm/find_if.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/operations.h:
 
@@ -821,6 +1546,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+../range-v3/include/range/v3/view/any_view.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_int32_t.h:
 
@@ -844,6 +1571,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
+../range-v3/include/range/v3/algorithm/find_first_of.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/i386/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uintptr_t.h:
@@ -866,7 +1595,13 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/ctime:
 
+../range-v3/include/range/v3/algorithm/rotate.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
+
+../range-v3/include/range/v3/view/cache1.hpp:
+
+../range-v3/include/range/v3/view/all.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
@@ -878,7 +1613,11 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
+../range-v3/include/range/v3/algorithm/remove_copy_if.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/numeric:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
@@ -892,6 +1631,10 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/machine/signal.h:
 
+../range-v3/include/range/v3/algorithm/move.hpp:
+
+../range-v3/include/range/v3/functional/invoke.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__nullptr:
@@ -902,9 +1645,13 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_types.h:
 
+../range-v3/include/range/v3/view/cartesian_product.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+
+../range-v3/include/range/v3/view/span.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
@@ -924,7 +1671,11 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
+../range-v3/include/range/v3/functional.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/fill.h:
+
+../range-v3/include/range/v3/action/transform.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/limits.h:
 
@@ -948,6 +1699,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__utility/in_place.h:
 
+../range-v3/include/range/v3/utility/in_place.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/includes.h:
@@ -966,15 +1719,23 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/limits:
 
+../range-v3/include/range/v3/algorithm/equal.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/max.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
+
+../range-v3/include/concepts/swap.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/malloc/_malloc.h:
+
+../range-v3/include/range/v3/algorithm/remove_copy.hpp:
+
+../range-v3/include/range/v3/action/unique.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
@@ -989,6 +1750,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/pthread/pthread_impl.h:
+
+../range-v3/include/range/v3/view/stride.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
@@ -1020,6 +1783,10 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/stdint.h:
 
+../range-v3/include/range/v3/view/unique.hpp:
+
+../range-v3/include/range/v3/action/push_front.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_fd_setsize.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_key_t.h:
@@ -1030,9 +1797,15 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stdint.h:
 
+../range-v3/include/range/v3/view/getlines.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
+../range-v3/include/range/v3/algorithm/partial_sort.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_intptr_t.h:
+
+../range-v3/include/range/v3/view/common.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/resource.h:
 
@@ -1047,6 +1820,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/size.h:
+
+../range-v3/include/range/v3/action/unstable_remove_if.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/i386/signal.h:
 
@@ -1064,6 +1839,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/span:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_va_list.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_id_t.h:
@@ -1074,6 +1851,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/initializer_list:
 
+../range-v3/include/std/detail/associated_types.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/qos.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/wait.h:
@@ -1083,6 +1862,10 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/next.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__utility/rel_ops.h:
+
+../range-v3/include/range/v3/algorithm/max_element.hpp:
+
+../range-v3/include/range/v3/algorithm/max.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_u_int8_t.h:
 
@@ -1096,6 +1879,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__utility/move.h:
 
+../range-v3/include/range/v3/algorithm/mismatch.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_wint_t.h:
@@ -1105,6 +1890,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/AvailabilityInternal.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h:
+
+../range-v3/include/range/v3/algorithm/move_backward.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_time_t.h:
 
@@ -1140,6 +1927,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/concepts:
 
+../range-v3/include/range/v3/algorithm/copy_backward.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/errno.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__string:
@@ -1151,6 +1940,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/mach/machine/_structs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/find_if.h:
+
+../range-v3/include/range/v3/action/slice.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/runetype.h:
 
@@ -1168,6 +1959,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_wctype.h:
 
+../range-v3/include/range/v3/view/remove_if.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/iterator.h:
@@ -1180,6 +1973,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_ssize_t.h:
 
+../range-v3/include/range/v3/range/conversion.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/machine/types.h:
@@ -1188,11 +1983,19 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_stdio.h:
 
+../range-v3/include/range/v3/view/drop_last.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/stdio.h:
+
+../range-v3/include/range/v3/algorithm/sample.hpp:
+
+../range-v3/include/range/v3/iterator/concepts.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/types.h:
+
+../range-v3/include/range/v3/algorithm/fold_left.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/hash.h:
 
@@ -1202,13 +2005,19 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
+../range-v3/include/range/v3/functional/arithmetic.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config:
+
+../range-v3/include/range/v3/utility/memory.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/strings.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/i386/types.h:
+
+../range-v3/include/range/v3/view/split_when.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__mbstate_t.h:
 
@@ -1218,11 +2027,17 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/bitset:
 
+../range-v3/include/range/v3/view/replace_if.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_errno_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/xlocale/_wchar.h:
 
+../range-v3/include/range/v3/view/move.hpp:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h:
+
+../range-v3/include/range/v3/view/ref.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_types/_uint32_t.h:
 
@@ -1235,6 +2050,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__debug:
+
+../range-v3/include/range/v3/utility/random.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
@@ -1250,6 +2067,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
+../range-v3/include/range/v3/algorithm/stable_sort.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/stdio.h:
@@ -1260,6 +2079,8 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
+../range-v3/include/range/v3/algorithm/shuffle.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__config_site:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle:
@@ -1268,13 +2089,25 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/algorithm:
 
+../range-v3/include/range/v3/view/take_while.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__memory/addressof.h:
 
+../range-v3/include/range/v3/algorithm/for_each.hpp:
+
+../range-v3/include/range/v3/algorithm/find_if_not.hpp:
+
+../range-v3/include/range/v3/functional/concepts.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/mutex:
+
+../range-v3/include/range/v3/utility/addressof.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+
+../range-v3/include/range/v3/view/facade.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/limits.h:
 
@@ -1284,9 +2117,13 @@ CMakeFiles/aoc.dir/main.cpp.o: ../main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_null.h:
 
+../range-v3/include/range/v3/view/addressof.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__functional/unwrap_ref.h:
+
+../range-v3/include/range/v3/range/traits.hpp:
 
 ../main.cpp:
 

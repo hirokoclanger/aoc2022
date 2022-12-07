@@ -103,13 +103,39 @@ int CountSize(Directory& directory){
     if(directory.size >= 0){
         return directory.size;
     }
-    directory.size = ranges::accumulate(directory.childFiles, 0, [](int sum, const std::string& path){return sum + files.at(path).filesize;});
+    auto totalfile = ranges::accumulate(directory.childFiles, 0, [](int sum, const std::string& path){return sum + files.at(path).filesize;});
 
+    directory.size = ranges::accumulate(directory.childDir, totalfile, [](int sum, const std::string& path){return sum + CountSize(dirs.at(path));});
     return directory.size;
 }
 
 int main(void){
     Parse();
     CountSize(dirs.at("/"));
+
+    // Part 1
+    auto output = [](const Directory& directory){return directory.size <= 100000;};
+    auto totalDirSize = ranges::accumulate(dirs | ranges::views::values | ranges::views::filter(output),0, [](int sum, const Directory& directory){return sum + directory.size;});
+    std::cout<<totalDirSize << "\n";
+
+    // Part2
+    const auto totalSpace = 70000000;
+    const auto targetSpace = 30000000;
+    const auto unused = totalSpace - dirs.at("/").size;
+    const auto sizeToDelete = targetSpace - unused;
+
+    auto directoriesSortedBySize = dirs | ranges::views::values | ranges::to<std::vector>();
+		ranges::sort(directoriesSortedBySize, std::less<int>{}, [](const Directory& directory) { return directory.size; });
+
+		auto deletedDirectorySize = 0;
+		for (const auto& directory : directoriesSortedBySize)
+		{
+			if (directory.size >= sizeToDelete)
+			{
+				deletedDirectorySize = directory.size;
+				break;
+			}
+		}
+        std::cout << deletedDirectorySize;
 }
 

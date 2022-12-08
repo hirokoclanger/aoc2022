@@ -712,4 +712,8 @@ CMakeFiles/aoc.dir/main.cpp.o
  /Users/ttt/dev/aoc/range-v3/include/range/v3/view/trim.hpp
  /Users/ttt/dev/aoc/range-v3/include/range/v3/view/unbounded.hpp
  /Users/ttt/dev/aoc/range-v3/include/range/v3/view/unique.hpp
+ /Users/ttt/dev/aoc/util/util.hpp
+ /Users/ttt/dev/aoc/util/string.cpp
+ /Users/ttt/dev/aoc/util/headers.hpp
+ /Users/ttt/dev/aoc/util/input.cpp
 

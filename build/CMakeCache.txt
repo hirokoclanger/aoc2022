@@ -175,8 +175,8 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // but are added when building.
 CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
-//rpaths
-CMAKE_SKIP_RPATH:BOOL=1
+//If set, runtime paths are not added when using shared libraries.
+CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -215,15 +215,6 @@ aoc_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 aoc_SOURCE_DIR:STATIC=/Users/ttt/dev/aoc
-
-//Value Computed by CMake
-myproject_BINARY_DIR:STATIC=/Users/ttt/dev/aoc/build
-
-//Value Computed by CMake
-myproject_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-myproject_SOURCE_DIR:STATIC=/Users/ttt/dev/aoc
 
 
 ########################
